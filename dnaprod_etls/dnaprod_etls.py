@@ -18,5 +18,6 @@ for sql_file in [
     ,'sql_queries/create_table2.sql'
     ,'sql_queries/create_table3.sql'
     ,'sql_queries/create_table4.sql'
+    ,'sql_queries/create_table5.sql'
 ]:
     dnaprod.execute_sql_file(sql_file)
