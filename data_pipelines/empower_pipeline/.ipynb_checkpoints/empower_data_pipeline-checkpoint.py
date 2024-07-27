@@ -11,7 +11,7 @@ import numpy as np
 from datetime import datetime
 
 
-sql_helix = sql_connector('HELIX', 'db_name')
+sql_helix = sql_connector('Empower', 'db_name')
 sql_dnaprod = sql_connector('DNAPROD', 'Helix')
 
 incremental_tables_names = [
@@ -36,4 +36,3 @@ for table in tables_names:
         table
         ,if_exists = 'append'
     )
-    
