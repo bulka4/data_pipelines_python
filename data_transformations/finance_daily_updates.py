@@ -21,3 +21,12 @@ for sql_file in [
     ,'sql_queries/create_table5.sql'
 ]:
     dnaprod.execute_sql_file(sql_file)
+    
+    
+for dashboard in [
+    'dashboard1'
+    ,'dashboard2'
+    ,'dashboard3'
+]:
+    sisense.build_dashboard(dashboard)
+    
