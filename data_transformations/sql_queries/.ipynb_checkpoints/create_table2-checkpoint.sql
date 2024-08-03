@@ -4,4 +4,4 @@ select
 into
 	table2
 from
-	Empower.fact.table2
+	Empower.fact.Table_2

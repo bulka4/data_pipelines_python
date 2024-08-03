@@ -26,7 +26,7 @@ for sql_file in [
 for dashboard in [
     'dashboard1'
     ,'dashboard2'
-    ,'dashboard3'
+    ,'Dashboard_3'
 ]:
     sisense.build_dashboard(dashboard)
     
